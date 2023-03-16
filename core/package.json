@@ -1,0 +1,21 @@
+{
+  "name": "@multi-framework/core",
+  "version": "1.0.0",
+  "description": "Regras de negócios do sistema MultiFramework",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.12",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}

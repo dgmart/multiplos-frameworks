@@ -1,0 +1,29 @@
+{
+  "name": "@multi-framework/fastify",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "5.x",
+    "@fastify/sensible": "4.x",
+    "@multi-framework/core": "*",
+    "fastify": "4.x",
+    "fastify-cli": "4.x",
+    "fastify-plugin": "3.x"
+  },
+  "devDependencies": {
+    "tap": "16.x"
+  }
+}

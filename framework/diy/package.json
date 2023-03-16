@@ -1,0 +1,22 @@
+{
+  "name": "@multi-framework/diy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@multi-framework/core": "*",
+    "moment": "^2.29.4",
+    "stack-trace": "^1.0.0-pre2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1"
+  }
+}

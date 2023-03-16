@@ -1,0 +1,37 @@
+{
+  "name": "@multi-framework/sails",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@multi-framework/core": "*",
+    "@sailshq/connect-redis": "3.x",
+    "@sailshq/lodash": "3.x",
+    "@sailshq/socket.io-redis": "5.x",
+    "grunt": "1.x",
+    "sails": "1.x",
+    "sails-hook-grunt": "5.x",
+    "sails-hook-orm": "4.x",
+    "sails-hook-sockets": "2.x"
+  },
+  "devDependencies": {
+    "eslint": "5.x"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/temp.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": "",
+  "engines": {
+    "node": "^18.15"
+  }
+}
